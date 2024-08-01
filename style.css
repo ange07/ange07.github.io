@@ -1,0 +1,136 @@
+/* Estilos personalizados para el portafolio de Angélica Chin */
+
+:root {
+    --primary-color: #00CED1; /* Aguamarina */
+    --secondary-color: #007BFF; /* Azul */
+    --dark-color: #333333; /* Negro suave */
+    --light-color: #F8F9FA; /* Blanco suave */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-color);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--dark-color) !important;
+}
+
+.navbar-brand, .nav-link {
+    color: var(--light-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Hero Section */
+/* Estilos para el nuevo Hero Section */
+#home {
+    background-color: var(--light-color);
+    padding: 80px 0;
+}
+
+.hero-image-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 2rem;
+    overflow: hidden;
+    border: 3px solid var(--primary-color);
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home h1 {
+    color: var(--secondary-color);
+}
+
+#home .lead {
+    color: var(--dark-color);
+}
+
+#home hr {
+    width: 50%;
+    margin: 1.5rem auto;
+    border-top: 2px solid var(--primary-color);
+}
+/* Secciones */
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: var(--secondary-color);
+}
+
+/* Botones */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* Habilidades */
+#skills .card {
+    background-color: var(--light-color);
+}
+
+#skills .card i {
+    color: var(--primary-color);
+}
+
+/* Formulario de contacto */
+#contact .card {
+    background-color: var(--light-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 20px 0;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: var(--dark-color);
+    }
+}
