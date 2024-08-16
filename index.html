@@ -30,15 +30,8 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Sobre Mí</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
-                   
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#service1">Apoyo Preescolar</a></li>
-                            <li><a class="dropdown-item" href="#service2">Orientación Preparatoria</a></li>
-                            <li><a class="dropdown-item" href="#service3">Talleres para Padres</a></li>
-                        </ul>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Educación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
                 </ul>
@@ -46,214 +39,248 @@
         </div>
     </nav>
 
-<!-- Hero Section -->
-<section id="home">
-    <div class="px-4 py-2 my-4 text-center">
-        <div class="hero-image-container mb-4">
-            <img src="assets/Copia de Angelica Chin_Foto.jpg" alt="Foto de Angélica Chin Cantillo" class="img-fluid rounded-circle hero-image">
+    <!--Hero Section-->
+    <section id="home" class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="mb-4">
+              <img src="assets/Copia de Angelica Chin_Foto.jpg" alt="Foto de Angélica Chin Cantillo" class="img-fluid rounded-circle hero-image" style="width: 250px; height: 250px; object-fit: cover;">
+            </div>
+            <h1 class="display-4 fw-bold">Angélica Chin Cantillo</h1>
+            <h2 class="mb-3">Psicóloga Escolar | <span id="app"></span></h2>
+            <p class="lead mb-4">Psicóloga escolar bilingüe con una sólida trayectoria en educación preescolar y preparatoria, actualmente en transición hacia el desarrollo front-end. Apasionada por el aprendizaje continuo, estoy emocionada por fusionar la psicología y la tecnología para innovar en la educación digital y el apoyo psicológico en línea.</p>
+            <div class="mb-4">
+              <a href="mailto:angie.chin007@gmail.com" class="btn btn-primary btn-lg">
+                <i class="bi bi-envelope-fill me-2"></i>Contáctame
+              </a>
+            </div>
+          </div>
         </div>
-      <h1 class="display-5 fw-bold text-body-emphasis">Angélica Chin Cantillo</h1>
-      <h2>Psicóloga Escolar Bilingüe</h2>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Psicóloga escolar bilingüe con experiencia en educación preescolar y preparatoria. Especializada en aprendizaje socioemocional, manejo de grupos y atención a necesidades educativas específicas. Comprometida con el desarrollo integral de los estudiantes y la creación de entornos educativos inclusivos y estimulantes.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
       </div>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-outline-primary btn-lg px-4">
-          Conoce mi trayectoria
-        </button>
-  </section>
+    </section>
 
-  <!--Skills Section-->                   
+ 
+ <!--Skills Section-->  
+ <section id="skills" class="py-5 bg-light">
+  <div class="container">
+      <h2 class="text-center mb-5">Habilidades</h2>
+      <div class="row">
+          <div class="col-md-6 mb-4">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h3 class="card-title h4 mb-4">Aptitudes Psicológicas</h3>
+                      <div class="row">
+                          <div class="col-sm-6 mb-3">
+                              <div class="d-flex align-items-center">
+                                  <i class="bi bi-clipboard-pulse text-primary fs-4 me-3"></i>
+                                  <span>Diseño de intervenciones educativas</span>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 mb-3">
+                              <div class="d-flex align-items-center">
+                                  <i class="bi bi-people-fill text-primary fs-4 me-3"></i>
+                                  <span>Manejo de grupos</span>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 mb-3">
+                              <div class="d-flex align-items-center">
+                                  <i class="bi bi-chat-quote-fill text-primary fs-4 me-3"></i>
+                                  <span>Comunicación efectiva</span>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 mb-3">
+                              <div class="d-flex align-items-center">
+                                  <i class="bi bi-ear-fill text-primary fs-4 me-3"></i>
+                                  <span>Empatía y escucha activa</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 mb-4">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h3 class="card-title h4 mb-4">Habilidades Técnicas</h3>
+                      <div class="row">
+                          <div class="col-sm-6 mb-3">
+                              <div class="d-flex align-items-center">
+                                  <i class="bi bi-filetype-html text-primary fs-4 me-3"></i>
+                                  <span>HTML (en desarrollo)</span>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 mb-3">
+                              <div class="d-flex align-items-center">
+                                  <i class="bi bi-filetype-css text-primary fs-4 me-3"></i>
+                                  <span>CSS (en desarrollo)</span>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 mb-3">
+                              <div class="d-flex align-items-center">
+                                  <i class="bi bi-filetype-js text-primary fs-4 me-3"></i>
+                                  <span>JavaScript básico (en desarrollo)</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
-  <section id="skills" class="py-5 bg-light">
+<!-- Sección Education -->
+<section id="education" class="py-5 bg-light">
+  <div class="container">
+      <h2 class="text-center mb-5">Educación</h2>
+      <div class="row justify-content-center">
+          <div class="col-md-6 mb-4">
+              <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                      <div class="d-flex align-items-center mb-3">
+                          <div class="icon-square text-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                              <i class="bi bi-mortarboard-fill"></i>
+                          </div>
+                          <h3 class="card-title h5 mb-0">Maestría en Psicología Aplicada en el Área Escolar</h3>
+                      </div>
+                      <h6 class="card-subtitle mb-2 text-muted">Universidad Autónoma de Yucatán (UADY)</h6>
+                      <p class="card-text">Agosto 2022 - Agosto 2024</p>
+                      <p class="card-text">Enfoque en intervenciones psicoeducativas y desarrollo de programas escolares.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 mb-4">
+              <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                      <div class="d-flex align-items-center mb-3">
+                          <div class="icon-square text-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                              <i class="bi bi-book-fill"></i>
+                          </div>
+                          <h3 class="card-title h5 mb-0">Licenciatura en Psicología</h3>
+                      </div>
+                      <h6 class="card-subtitle mb-2 text-muted">Universidad Autónoma de Yucatán (UADY)</h6>
+                      <p class="card-text">Agosto 2016 - Diciembre 2021</p>
+                      <p class="card-text"><strong>Reconocimiento:</strong> Premio CENEVAL al Desempeño de Excelencia EGEL</p>
+                      <p class="card-text">Desempeño sobresaliente en todas las áreas del Examen General para el Egreso de Licenciatura (EGEL) en Psicología.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!--Sección Certifications-->
+<section id="cursos-y-certificaciones" class="py-5 bg-light">
+  <div class="container">
+      <h2 class="text-center mb-5">Cursos y certificaciones</h2>
+      <div class="row justify-content-center">
+          <div class="col-lg-10">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                      <div class="card h-100">
+                          <div class="card-body text-center">
+                              <i class="bi bi-laptop text-primary fs-1 mb-3"></i>
+                              <h5 class="card-title">Bootcamp de Desarrollo Web Front-End</h5>
+                              <p class="card-text">TecnolochicasPRO<br>(Agosto 2024)</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card h-100">
+                          <div class="card-body text-center">
+                              <i class="bi bi-translate text-primary fs-1 mb-3"></i>
+                              <h5 class="card-title">Certificado TOEFL ITP</h5>
+                              <p class="card-text">630 puntos<br>Inglés Avanzado</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card h-100">
+                          <div class="card-body text-center">
+                              <i class="bi bi-robot text-primary fs-1 mb-3"></i>
+                              <h5 class="card-title">Curso AI Education for Teachers</h5>
+                              <p class="card-text">Coursera<br>(Junio 2024)</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+   <!--Sección experiencia laboral -->
+   <section id="experiencia" class="py-5">
     <div class="container">
-        <h2 class="text-center mb-4">Habilidades</h2>
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <h2 class="text-center mb-5">Experiencia Laboral</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-square text-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                                <i class="bi bi-person-workspace"></i>
+                            </div>
+                            <h3 class="card-title h5 mb-0">Tutora de Niños y Adolescentes</h3>
+                        </div>
+                        <h6 class="card-subtitle mb-2 text-muted">Mar. 2023 - Presente | Servicio Privado, Mérida, Yuc.</h6>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Apoyo personalizado en lectoescritura y orientación académica.</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Desarrollo de estrategias de aprendizaje individualizadas.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-square text-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                                <i class="bi bi-briefcase"></i>
+                            </div>
+                            <h3 class="card-title h5 mb-0">Psicóloga de Jardín de Niños | Residencia Profesionalizante</h3>
+                        </div>
+                        <h6 class="card-subtitle mb-2 text-muted">Ene. 2023 - Jun. 2024 | SEP, Mérida, Yuc.</h6>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Apoyo socioemocional a 75 estudiantes y 4 docentes.</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Implementación de programa para habilidades socioemocionales.</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Diseño de estrategias para necesidades educativas específicas.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-square text-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
                                 <i class="bi bi-people"></i>
                             </div>
-                            <div>
-                        <h3 class="fs-2 text-body-emphasis">Aprendizaje Socioemocional</h3>
-                    </div>
-            <p>Experiencia en implementación de estrategias para desarrollar habilidades socioemocionales en estudiantes.</p>
-          </div>
-        </div>
-</div>
-<div class="col-md-4 mb-3">
-    <div class="card">
-        <div class="card-body text-center">
-            <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                <i class="bi bi-book"></i>
-              </div>
-              <div>
-                <h3 class="fs-2 text-body-emphasis">Diseño de Programas Educativos</h3>
-                <p>Capacidad para crear e implementar programas educativos innovadores y efectivos.</p>
-        </div>
-    </div>
-</div>
-</div>
-<div class="col-md-4 mb-3">
-    <div class="card">
-        <div class="card-body text-center">
-        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <i class="bi bi-chat-dots"></i>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Comunicación Efectiva</h3>
-            <p>Habilidad para comunicarse de manera asertiva con estudiantes, padres y colegas en entornos educativos.</p>    
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-    <!-- Experience Section -->
-    <section id="experiencia">
-        <div class="container px-4 py-5">
-          <h2 class="pb-2 border-bottom">Experiencia Laboral</h2>
-          <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
-            <div class="col d-flex align-items-start">
-              <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                <i class="bi bi-briefcase"></i>
-              </div>
-              <div>
-                <h3 class="fs-2 text-body-emphasis">Psicóloga de la Unidad de Apoyo a la Educación Preescolar</h3>
-                <p>Ene. 2023 - Junio. 2024 | Mérida, Yucatán</p>
-                <ul>
-                  <li>Implementé estrategias para 50+ alumnos con necesidades educativas específicas en un jardín público.</li>
-                  <li>Diseñé e impartí 10+ talleres a padres y docentes sobre habilidades de lectoescritura y socioemocionales.</li>
-                  <li>Brindé orientación a 30+ padres sobre modificación conductual y acompañamiento educativo.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col d-flex align-items-start">
-              <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                <i class="bi bi-heart"></i>
-              </div>
-              <div>
-                <h3 class="fs-2 text-body-emphasis">Promotora de Hábitos de Vida Saludable</h3>
-                <p>Mar. 2019 - Jun. 2019 | Mérida, Yucatán</p>
-                <ul>
-                  <li>Diseñé e implementé 5 talleres y pláticas sobre salud para 200+ estudiantes.</li>
-                  <li>Brindé consejería breve a 30+ estudiantes, apoyando su bienestar emocional.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    
-    <section id="experience" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-4">Experiencia Laboral</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Psicóloga de la Unidad de Apoyo a la Educación Preescolar</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Ene. 2023 - Junio. 2024 | Mérida, Yucatán</h6>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Implementé estrategias para 50+ alumnos con necesidades educativas específicas.</li>
-                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Diseñé e impartí 10+ talleres a padres y docentes.</li>
-                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Brindé orientación a 30+ padres sobre modificación conductual.</li>
-                            </ul>
+                            <h3 class="card-title h5 mb-0">Psicóloga USAER | Servicio Social</h3>
                         </div>
+                        <h6 class="card-subtitle mb-2 text-muted">Ene. 2021 - Dic. 2021 | SEP, Mérida, Yuc.</h6>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Planes de intervención para 5 jardines de niños públicos.</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Estrategias para alumnos con necesidades especiales.</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Talleres sobre habilidades socioemocionales.</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Promotora de Hábitos de Vida Saludable</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Mar. 2019 - Jun. 2019 | Mérida, Yucatán</h6>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Diseñé e implementé 5 talleres sobre salud para 200+ estudiantes.</li>
-                                <li class="list-group-item"><i class="fas fa-check text-success me-2"></i>Brindé consejería breve a 30+ estudiantes.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Education Section -->
-    <section id="education" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Educación</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Maestría en Psicología Aplicada en el Área Escolar</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Universidad Autónoma de Yucatán (UADY)</h6>
-                            <p class="card-text">Titulación prevista: Septiembre 2024</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Licenciatura en Psicología</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Universidad Autónoma de Yucatán (UADY)</h6>
-                            <p class="card-text">Graduada en 2021</p>
-                            <p class="card-text"><strong>Premio CENEVAL al Desempeño de Excelencia EGEL</strong></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- Project Gallery Section -->
-<section id="projects" class="py-5 bg-light">
-    <div class="container">
-        <h2 class="text-center mb-5">Mis Proyectos</h2>
-        <div class="row">
-            <!-- Proyecto 1 -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="/api/placeholder/300/200" class="card-img-top" alt="Proyecto 1">
+                <div class="card mb-4 shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Programa de Apoyo Preescolar</h5>
-                        <p class="card-text">Desarrollo e implementación de un programa integral para apoyar el aprendizaje socioemocional en preescolares.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Proyecto 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="/api/placeholder/300/200" class="card-img-top" alt="Proyecto 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Taller para Padres: Manejo de Estrés</h5>
-                        <p class="card-text">Diseño y facilitación de un taller para padres enfocado en técnicas de manejo de estrés y comunicación efectiva con los hijos.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Ver detalles</a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Proyecto 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="/api/placeholder/300/200" class="card-img-top" alt="Proyecto 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Intervención en Preparatoria: Hábitos Saludables</h5>
-                        <p class="card-text">Implementación de un programa de promoción de hábitos saludables para estudiantes de preparatoria, incluyendo nutrición y ejercicio.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-square text-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                                <i class="bi bi-mortarboard"></i>
+                            </div>
+                            <h3 class="card-title h5 mb-0">Orientadora Educativa | Prácticas Profesionales</h3>
+                        </div>
+                        <h6 class="card-subtitle mb-2 text-muted">Feb. 2019 - Jun. 2019 | CONALEP, Mérida, Yuc.</h6>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Talleres sobre habilidades para la vida y salud mental.</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Evaluación de habilidades en estudiantes de preparatoria.</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Programas de orientación vocacional y consejería académica.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -261,122 +288,158 @@
     </div>
 </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Contacto</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="card">
-                        <div class="card-body">
-                            <form>
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="name" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="email" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="message" class="form-label">Mensaje</label>
-                                    <textarea class="form-control" id="message" rows="3" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- Carrusel Testimonios -->
-    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner py-5">
-          <div class="carousel-item active">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="card border-0 shadow">
-                    <div class="card-body p-5">
-                      <div class="row align-items-center">
-                        <div class="col-md-4 mb-4 mb-md-0">
-                          <img src="/api/placeholder/150/150" class="rounded-circle img-fluid mx-auto d-block" alt="Foto de María">
-                        </div>
-                        <div class="col-md-8">
-                          <p class="lead mb-3">"La Lic. Angélica ha sido fundamental en el desarrollo socioemocional de mi hijo. Su enfoque personalizado y su paciencia han marcado una gran diferencia en nuestras vidas."</p>
-                          <p class="font-weight-bold mb-0">María Rodríguez</p>
-                          <small class="text-muted">Madre de estudiante de preescolar</small>
-                        </div>
-                      </div>
-                    </div>
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+      <h2 class="text-center mb-5">Mis Proyectos en Tecnolochicas PRO</h2>
+      <div class="row justify-content-center">
+          <!-- Proyecto 1: Clon de Pinterest -->
+          <div class="col-md-4 mb-4">
+              <div class="card h-100 shadow-sm">
+                  <img src="assets/Pinterest.png" class="card-img-top" alt="Clon de Pinterest">
+                  <div class="card-body">
+                      <h5 class="card-title">Clon de Pinterest</h5>
+                      <p class="card-text">Desarrollo de una réplica de la interfaz de Pinterest utilizando HTML y CSS, enfocándose en la maquetación y estilización responsive.</p>
+                      <p><small class="text-muted">Tecnologías: HTML, CSS</small></p>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="card border-0 shadow">
-                    <div class="card-body p-5">
-                      <div class="row align-items-center">
-                        <div class="col-md-4 mb-4 mb-md-0">
-                          <img src="/api/placeholder/150/150" class="rounded-circle img-fluid mx-auto d-block" alt="Foto de Carlos">
-                        </div>
-                        <div class="col-md-8">
-                          <p class="lead mb-3">"Puedo decir que el trabajo de Angélica ha sido excepcional. Su programa de orientación ha mejorado significativamente el bienestar de nuestros estudiantes."</p>
-                          <p class="font-weight-bold mb-0">Gabriela Ruiz</p>
-                          <small class="text-muted">Directora de Preescolar</small>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="card-footer">
+                      <a href="#" class="btn btn-primary">Ver proyecto</a>
                   </div>
-                </div>
               </div>
-            </div>
           </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="card border-0 shadow">
-                    <div class="card-body p-5">
-                      <div class="row align-items-center">
-                        <div class="col-md-4 mb-4 mb-md-0">
-                          <img src="/api/placeholder/150/150" class="rounded-circle img-fluid mx-auto d-block" alt="Foto de Laura">
-                        </div>
-                        <div class="col-md-8">
-                          <p class="lead mb-3">"Los talleres para padres de Angélica han sido reveladores. He aprendido estrategias prácticas para apoyar el aprendizaje de mi hija en casa. Su enfoque bilingüe es un gran plus."</p>
-                          <p class="font-weight-bold mb-0">Laura Ek</p>
-                          <small class="text-muted">Participante en talleres para padres</small>
-                        </div>
-                      </div>
-                    </div>
+          
+          <!-- Proyecto 2: Lista de Tareas -->
+          <div class="col-md-4 mb-4">
+              <div class="card h-100 shadow-sm">
+                  <img src="assets/Lista de tareas.png" class="card-img-top" alt="Lista de Tareas">
+                  <div class="card-body">
+                      <h5 class="card-title">Lista de Tareas Interactiva</h5>
+                      <p class="card-text">Creación de una aplicación web para gestionar tareas, implementando funcionalidades de agregar, eliminar y marcar tareas como completadas.</p>
+                      <p><small class="text-muted">Tecnologías: HTML, CSS, JavaScript</small></p>
                   </div>
-                </div>
+                  <div class="card-footer">
+                      <a href="#" class="btn btn-primary">Ver proyecto</a>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
+          
+          <!-- Proyecto 3: Página de Curso de Lengua Materna -->
+          <div class="col-md-4 mb-4">
+              <div class="card h-100 shadow-sm">
+                  <img src="assets/Lengua materna.png" class="card-img-top" alt="Página de Curso de Lengua Materna">
+                  <div class="card-body">
+                      <h5 class="card-title">Página Web Educativa</h5>
+                      <p class="card-text">Diseño y desarrollo de una página web con los temas de un curso de Lengua Materna para 1º de secundaria, focalizando en la estructura y presentación de contenido educativo.</p>
+                      <p><small class="text-muted">Tecnologías: HTML, CSS</small></p>
+                  </div>
+                  <div class="card-footer">
+                      <a href="#" class="btn btn-primary">Ver proyecto</a>
+                  </div>
+              </div>
+          </div>
       </div>
+  </div>
+</section>
+
+    
+<!-- Carrusel Testimonios -->
+<section id="testimonios" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Testimonios</h2>
+    
+    <div id="testimoniosCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Testimonio 1: Diana Novelo -->
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center">
+            <div class="card border-0 shadow" style="width: 24rem">
+              <img src="assets/Diana.jpeg" class="rounded-circle card-img-top mx-auto mt-4" alt="Diana Novelo" style="width: 150px; height: 150px; object-fit: cover;" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Diana Novelo</h5>
+                <div class="card-subtitle mb-2 text-muted">Psicóloga en Centro A.Y.U.D.A Autismo Mérida</div>
+                <p class="card-text">
+                  "Angélica ha demostrado ser muy responsable y empática al trabajar con niños con autismo. Siempre está aprendiendo para dar el mejor servicio."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonio 2: Cassandra -->
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center">
+            <div class="card border-0 shadow" style="width: 24rem">
+              <img src="assets/Cassandra.jpeg" class="rounded-circle card-img-top mx-auto mt-4" alt="Cassandra" style="width: 150px; height: 150px; object-fit: cover;" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Cassandra Méndez</h5>
+                <div class="card-subtitle mb-2 text-muted">Madre de alumno de preescolar</div>
+                <p class="card-text">
+                  "El apoyo de Angélica ha sido fundamental para el aprendizaje de mi hijo. Su su paciencia ha ayudado a mi niño a superar muchos desafíos de aprendizaje como su dificultad al concentrarse."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonio 3: Maestra USAER -->
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center">
+            <div class="card border-0 shadow" style="width: 24rem">
+              <img src="/assets/Wendy.jpeg" class="rounded-circle card-img-top mx-auto mt-4" alt="Maestra USAER" style="width: 150px; height: 150px; object-fit: cover;" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Wendy Pérez</h5>
+                <div class="card-subtitle mb-2 text-muted">Maestra especialista de USAER</div>
+                <p class="card-text">
+                  "Colaborar con Angélica ha sido muy grato. Es muy cálida y se enfoca en el apoyo adecuado a estudiantes con necesidades especiales."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+</section>
+
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <div class="container">
-            <p>&copy; 2024 Angélica Chin Cantillo. Todos los derechos reservados.</p>
-        </div>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center pb-3 mb-3">
+        <li class="nav-item">
+          <a href="https://github.com/ange07" target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+            <i class="bi bi-github"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.linkedin.com/in/angélica-chin-cantillo" target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.facebook.com/AnhJin/" target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.instagram.com/ange_218/" target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-center">Creado por Angélica Chin en el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></p>
     </footer>
 
+<!-- Typewriter -->
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- JS -->
+      <script src="main.js"></script>
 </body>
 </html>
